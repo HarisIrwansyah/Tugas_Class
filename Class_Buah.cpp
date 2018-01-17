@@ -14,6 +14,12 @@ class buah{
 	
 };
 
-int main (){
+void buah::potong(string belah){
+	cout << "Sebaiknya di "<< belah << endl;
+}
+void buah::kupas(string luar){
+	cout << "Sebaiknya di "<< luar << endl;
+}
+int main(){
 	
 }
