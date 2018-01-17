@@ -47,4 +47,7 @@ int main(){
 	buahPepaya.bentuk = "Lonjong";
 	buahPepaya.kulit  = "Lunak";
 	
+string pilihan;
+cout << "Cari Buah : "; cin >> pilihan;
+
 }
