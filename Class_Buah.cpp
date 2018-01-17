@@ -50,4 +50,16 @@ int main(){
 string pilihan;
 cout << "Cari Buah : "; cin >> pilihan;
 
+	if(pilihan=="Mangga"){
+		cout << "Keterangan Buah Mangga"<<endl;
+		cout << "Nama Buah        : "<<buahMangga.nama<<endl;
+		cout << "Warna dalam Buah : "<<buahMangga.warna<<endl;
+		cout << "Rasa Buah        : "<<buahMangga.rasa<<endl;
+		cout << "Bentuk Buah      : "<<buahMangga.bentuk<<endl;
+		cout << "Kulit Buah       : "<<buahMangga.kulit<<endl;
+		
+	buahMangga.kupas("Kupas terlebih dahulu kulitnya, lalu makan");
+	
+	}
+
 }
