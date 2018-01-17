@@ -21,5 +21,6 @@ void buah::kupas(string luar){
 	cout << "Sebaiknya di "<< luar << endl;
 }
 int main(){
+	buah buahMangga, buahKelapa, buahNaga, buahPepaya;
 	
 }
