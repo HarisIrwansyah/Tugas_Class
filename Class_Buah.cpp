@@ -72,5 +72,30 @@ cout << "Cari Buah : "; cin >> pilihan;
 	buahKelapa.potong("Belah dengan Parang agar bisa dimakan");
 	
 	}
+	else if(pilihan=="Naga"){
+		cout << "Keterangan Buah Naga"<<endl;
+		cout << "Nama Buah        : "<<buahNaga.nama<<endl;
+		cout << "Warna dalam Buah : "<<buahNaga.warna<<endl;
+		cout << "Rasa Buah        : "<<buahNaga.rasa<<endl;
+		cout << "Bentuk Buah      : "<<buahNaga.bentuk<<endl;
+		cout << "Kulit Buah       : "<<buahNaga.kulit<<endl;
+		
+	buahNaga.kupas("Kupas terlebih dahulu kulitnya, lalu makan");
+	
+	}
+	else if(pilihan=="Pepaya"){
+		cout << "Keterangan Buah Pepaya"<<endl;
+		cout << "Nama Buah        : "<<buahPepaya.nama<<endl;
+		cout << "Warna dalam Buah : "<<buahPepaya.warna<<endl;
+		cout << "Rasa Buah        : "<<buahPepaya.rasa<<endl;
+		cout << "Bentuk Buah      : "<<buahPepaya.bentuk<<endl;
+		cout << "Kulit Buah       : "<<buahPepaya.kulit<<endl;
+	
+	buahPepaya.kupas("Kupas terlebih dahulu kulitnya, lalu makan");
+	
+	}
+	else {
+		cout << "Huruf tidak KAPITAL atau salah memasukkan kata kunci";
+	}
 }
 
