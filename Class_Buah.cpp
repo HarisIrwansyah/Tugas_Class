@@ -61,5 +61,16 @@ cout << "Cari Buah : "; cin >> pilihan;
 	buahMangga.kupas("Kupas terlebih dahulu kulitnya, lalu makan");
 	
 	}
-
+	else if(pilihan=="Kelapa"){
+		cout << "Keterangan Buah Kelapa"<<endl;
+		cout << "Nama Buah        : "<<buahKelapa.nama<<endl;
+		cout << "Warna dalam Buah : "<<buahKelapa.warna<<endl;
+		cout << "Rasa Buah        : "<<buahKelapa.rasa<<endl;
+		cout << "Bentuk Buah      : "<<buahKelapa.bentuk<<endl;
+		cout << "Kulit Buah       : "<<buahKelapa.kulit<<endl;
+		
+	buahKelapa.potong("Belah dengan Parang agar bisa dimakan");
+	
+	}
 }
+
